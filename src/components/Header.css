@@ -1,0 +1,102 @@
+/* Header container */
+.header {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  padding: 1rem 0;
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Navigation container */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Logo styles */
+.logo img {
+  height: 50px;
+  width: auto;
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+}
+
+.logo:hover img {
+  transform: scale(1.05) rotate(-2deg);
+}
+
+/* Navigation links container */
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Navigation links */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  position: relative;
+  padding: 0.5rem 0;
+  transition: all 0.3s ease;
+}
+
+/* Hover effects */
+.nav-link:hover {
+  color: #1db954; /* Spotify green */
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #1db954;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Active link styling */
+.nav-link.active {
+  color: #1db954;
+}
+
+.nav-link.active::after {
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .nav {
+    padding: 0 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+}
