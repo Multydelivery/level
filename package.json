@@ -1,0 +1,12 @@
+{
+  "name": "level-root",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npm --prefix level-blog run dev",
+    "build": "npm --prefix level-blog run build",
+    "preview": "npm --prefix level-blog run preview",
+    "install": "npm --prefix level-blog install",
+    "start": "npm run dev"
+  }
+}
