@@ -1,0 +1,49 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 2rem 0;
+    position: relative;
+    z-index: 10; /* Ensure it stays above other elements */
+    margin-top: auto; /* For proper layout in the document flow */
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .footer-links {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .footer-links a {
+    font-family: 'Permanent Marker', cursive;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #fff;
+  }
+  
+  /* Ensure the footer doesn't overlap with hero content */
+  @media (min-height: 100vh) {
+    .footer {
+      position: static;
+    }
+  }
