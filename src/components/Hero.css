@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 5%;
+  padding: var(--page-vertical) var(--page-horizontal);
   color: white;
   position: relative;
 }

@@ -13,7 +13,7 @@ const Social = () => {
     <main className="main-content">
       <div className="welcome-section">
         <h1>Welcome to Level</h1>
-        <p>Your go-to place for the latest in DJ, Techno, and House music.</p>
+        <p>Est. 2010</p>
         
         <div className="social-icons">
           <a href="https://www.instagram.com/stvan__?igsh=cXgwMGoxYnIyOGQ3" target="_blank" rel="noopener noreferrer" aria-label="Instagram">

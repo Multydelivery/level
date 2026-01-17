@@ -5,12 +5,6 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-content">
-        <h1>Welcome to Level</h1>
-        <p>
-          Your go-to place for the latest in DJ, Techno, and House music. Discover new tracks, read
-          about the hottest events, and connect with the community.
-        </p>
-
         <div className="sections-grid">
           {/* First Row */}
           <div className="section-row">
