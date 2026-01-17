@@ -1,0 +1,84 @@
+/* Contact form styles */
+.hero__title {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.card--contact input,
+.card--contact textarea {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.02);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  resize: vertical;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease, transform 0.12s ease;
+  margin-bottom: 0.75rem;
+}
+
+.card--contact input::placeholder,
+.card--contact textarea::placeholder {
+  color: rgba(255,255,255,0.55);
+}
+
+.card--contact input:focus,
+.card--contact textarea:focus {
+  outline: none;
+  border-color: var(--accent-2);
+  box-shadow: 0 6px 20px var(--accent-glow);
+  transform: translateY(-1px);
+}
+
+.card--contact {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-status {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.form-status--error {
+  color: #ff7b7b;
+}
+
+.form-status--success {
+  color: #7be1b9;
+}
+
+/* Make buttons stack on small screens */
+@media (max-width: 600px) {
+  .card--contact .btn {
+    width: 100%;
+  }
+
+  .card--contact > div[style] {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card--contact > div[style] .btn + .btn {
+    margin-top: 0.5rem;
+  }
+}
+
+/* Per-page header offset removed — using global header offset in index.css */
+
+/* Contact page: increase top spacing so form sits further below header */
+.about-main{
+  padding-top: calc(var(--header-offset-desktop) + 40px);
+}
+
+@media (max-width: 600px) {
+  .about-main{
+    padding-top: calc(var(--header-offset-mobile) + 24px);
+  }
+}

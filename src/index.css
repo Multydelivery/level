@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  /* Header offset to keep page titles clear of fixed header */
+  --header-offset-desktop: calc(140px + 1rem);
+  --header-offset-mobile: calc(110px + 0.75rem);
+  /* Page padding variables for consistent horizontal/vertical spacing */
+  --page-vertical-desktop: 3.5rem;
+  --page-horizontal-desktop: 1.5rem;
+  --page-vertical-mobile: 2rem;
+  --page-horizontal-mobile: 0.75rem;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -52,5 +62,50 @@ header {
   color: #333;
   text-decoration: none;
   font-weight: bold;
+}
+
+/* Apply header offset site-wide so titles align consistently */
+main, .container {
+  padding-top: var(--header-offset-desktop);
+}
+
+@media (max-width: 600px) {
+  main, .container {
+    padding-top: var(--header-offset-mobile);
+  }
+}
+
+/* Map page padding variables to convenient names */
+:root {
+  --page-vertical: var(--page-vertical-desktop);
+  --page-horizontal: var(--page-horizontal-desktop);
+}
+
+@media (max-width: 600px) {
+  :root {
+    --page-vertical: var(--page-vertical-mobile);
+    --page-horizontal: var(--page-horizontal-mobile);
+  }
+}
+
+/* Permanent Marker: display font for hero titles and selected headings */
+.hero__title, .hero h1, h1 {
+  font-family: 'Permanent Marker', cursive;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin: 0 0 0.65rem;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  text-align: center;
+}
+
+/* Heading / paragraph rhythm: ensure consistent spacing */
+h1, h2, h3, h4 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+}
+
+p {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
