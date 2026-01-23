@@ -12,7 +12,6 @@ const Social = () => {
   return (
     <main className="main-content">
       <div className="welcome-section">
-        <h1>Welcome to Level</h1>
         <p>Est. 2010</p>
         
         <div className="social-icons">
