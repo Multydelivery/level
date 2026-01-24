@@ -56,7 +56,7 @@
 /* Card wrapper for form */
 .card--contact{
   background-color: var(--panel, rgba(255,255,255,0.04));
-  background-image: url('/volatilimage.jpeg');
+  background-image: url('public/volatilimage.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
