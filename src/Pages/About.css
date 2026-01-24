@@ -36,7 +36,7 @@
 }
 
 .hero.hero--andes {
-  background-image: url('/synthetiserlevel.jpeg');
+  background-image: url('public/synthetiserlevel.jpeg');
   background-size: cover;
   background-position: center;
   position: relative;
