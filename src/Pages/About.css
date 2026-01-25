@@ -270,24 +270,9 @@ strong{
 .bio-content{
   padding-right: 2rem;
 }
-
-.bio-lead{
-  font-size: 1.2rem;
-  color: var(--text);
-  line-height: 1.7;
-  margin-bottom: 1.5rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid var(--border);
-}
-
-.bio-details{
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-}
-
-.bio-details p{
-  margin: 0;
+.bio-content p{
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;  
 }
 
 /* Quote card enhancement */

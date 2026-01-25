@@ -16,7 +16,8 @@ const About = () => {
               <p className="hero__kicker">ABOUT</p>
               <h1 className="hero__title">FLÂNEUR</h1>
               <p className="hero__lede">
-                Colombian electronic producer creating atmospheric soundscapes from the Central Andes.
+                Colombian electronic producer creating atmospheric soundscapes
+                from the Central Andes.
               </p>
 
               <div className="hero__cta">
@@ -65,24 +66,29 @@ const About = () => {
               Exploring sound through landscape and introspection
             </p>
           </div>
-          
+
           <div className="grid two">
             <div className="bio-content">
               <p className="bio-lead">
-                Flâneur is a Colombian electronic music producer and founder of the collective <strong>LEVEL MUSIC</strong>.
-                His work blends field recordings from the Andes with modular synthesis, creating immersive soundscapes.
+                Flâneur is a Colombian electronic music producer and founder of
+                the collective LEVEL MUSIC. His work blends
+                field recordings from the Andes with modular synthesis, creating
+                immersive soundscapes.
               </p>
-              
+
               <div className="bio-details">
                 <p>
-                  Inspired by the Central Andes and Los Nevados National Park, Flâneur treats darkness and the unknown
-                  as creative material—a way to explore sound and existence more deeply.
+                  Inspired by the Central Andes and Los Nevados National Park,
+                  Flâneur treats darkness and the unknown as creative material—a
+                  way to explore sound and existence more deeply.
                 </p>
-                
+
                 <p>
-                  Using subtractive and modular synthesis, he composes multisensory experiences that invite introspection
-                  and expansion. As his name suggests (from the literary concept of the flâneur—the observer-wanderer),
-                  he is an explorer of landscapes and sound.
+                  Using subtractive and modular synthesis, he composes
+                  multisensory experiences that invite introspection and
+                  expansion. As his name suggests (from the literary concept of
+                  the flâneur—the observer-wanderer), he is an explorer of
+                  landscapes and sound.
                 </p>
               </div>
             </div>
@@ -115,8 +121,9 @@ const About = () => {
                   <div className="card__icon">🎛️</div>
                   <h3 className="card__title">Synthesis</h3>
                   <p>
-                    <strong>Subtractive and modular synthesis</strong> form the core of his sound, creating dense textures
-                    and layered atmospheres in both studio and live performances.
+                    Subtractive and modular synthesis form the
+                    core of his sound, creating dense textures and layered
+                    atmospheres in both studio and live performances.
                   </p>
                 </div>
               </article>
@@ -126,8 +133,9 @@ const About = () => {
                   <div className="card__icon">🏔️</div>
                   <h3 className="card__title">Inspiration</h3>
                   <p>
-                    The <strong>Andes mountains, literature, and nature</strong> serve as emotional maps, translating
-                    landscape into sound through field recordings and harmonic structures.
+                    The Andes mountains, literature, and nature
+                    serve as emotional maps, translating landscape into sound
+                    through field recordings and harmonic structures.
                   </p>
                 </div>
               </article>
@@ -137,8 +145,9 @@ const About = () => {
                   <div className="card__icon">🎯</div>
                   <h3 className="card__title">Philosophy</h3>
                   <p>
-                    Prioritizes <strong>essence over genre</strong>, creating focused journeys of introspection where each
-                    set tells a distinct sonic narrative.
+                    Prioritizes essence over genre, creating
+                    focused journeys of introspection where each set tells a
+                    distinct sonic narrative.
                   </p>
                 </div>
               </article>
@@ -178,8 +187,9 @@ const About = () => {
                   <h3 className="release__title">Volátil</h3>
                 </div>
                 <p className="release__desc">
-                  A conceptual exploration of impermanence through deep electronics, 
-                  modular synthesis, and atmospheric textures inspired by Andean topography.
+                  A conceptual exploration of impermanence through deep
+                  electronics, modular synthesis, and atmospheric textures
+                  inspired by Andean topography.
                 </p>
                 <div className="release__links">
                   <a
@@ -202,8 +212,9 @@ const About = () => {
                   <h3 className="release__title">Kaputt</h3>
                 </div>
                 <p className="release__desc">
-                  Hybrid electronic piece combining modular synthesis with ambient textures, 
-                  creating a sonic representation of fragmented memory and landscape.
+                  Hybrid electronic piece combining modular synthesis with
+                  ambient textures, creating a sonic representation of
+                  fragmented memory and landscape.
                 </p>
                 <div className="release__links">
                   <a
@@ -226,8 +237,9 @@ const About = () => {
                   <h3 className="release__title">Sound Signature Sessions</h3>
                 </div>
                 <p className="release__desc">
-                  Ongoing experimental sessions focused on sound design and synthesis techniques—an 
-                  open laboratory for new approaches to electronic composition.
+                  Ongoing experimental sessions focused on sound design and
+                  synthesis techniques—an open laboratory for new approaches to
+                  electronic composition.
                 </p>
                 <div className="release__links">
                   <a
@@ -243,8 +255,6 @@ const About = () => {
             </article>
           </div>
         </section>
-
-   
       </main>
 
       <Footer />
