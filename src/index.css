@@ -24,6 +24,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Normalize box model and remove default page margins so backgrounds are full-bleed */
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #242424;
+  color: inherit;
+}
+
 header {
   background-color: #333;
   color: white;
